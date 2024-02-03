@@ -3,6 +3,7 @@ const routes = require('./routes');
 // const fs = require('fs');
 
 // const server = http.createServer(routes);
+
 console.log(routes.someText)
 const server = http.createServer(routes.handler);
 
